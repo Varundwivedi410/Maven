@@ -11,10 +11,6 @@ job('First-Maven-Project-Via-DSL') {
     }
     publishers {
         //archive the war file generated
-<<<<<<< HEAD
         archiveArtifacts '**/*.jar'
-=======
-        archiveArtifacts('**/*.jar')
->>>>>>> db89cb9c867cfa61c1b9f70415df5c24b186d4ff
     }
 }
